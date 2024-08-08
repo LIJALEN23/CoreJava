@@ -108,3 +108,42 @@ Java是一种强类型语言(每个变量必须声明为一种类型)。
   ```
   
 ### 运算符
+- 严格浮点运算
+```java
+class Solution {
+    public static strictfp void main(String[] args) {
+        
+    }
+}
+```
+- **java.util.Math类**中都是数学相关的静态方法。性能高，精度相对于StrictMath类更低
+- 数值类型转换：注意精度丢失问题
+  - 强制类型转换(cast)。Math.round()可以将double类型进行舍入运算，得到最接近的整数
+- 逻辑运算符
+
+### 字符串
+概念上Java字符串是Unicode字符序列，用String类型，是一个预定义类
+- String：不可变字符串(immutable)，编译器让字符串共享
+  - StringAPI
+  - 空串与null
+  - **码点与代码单元**：常用的Unicode可以用一个代码单元表示，辅助字符需要一对
+  - CharSequence：所有字符串的接口
+- StringBuilder(单线程)：前身是StringBuffer(效率稍低，用于多线程)
+
+
+### 输入与输出
+- Scanner类实现输入
+- Console类看可以处理密码输入
+- 格式化字符串
+- 文件输入输出与字符编码，IOException
+
+### 大数
+用于处理大数
+
+
+### 数组
+- 数组创建之后无法需修改大小
+- for each循环：定义一个变量**暂存**集合中的每一个元素。用于数组或者collection中实现Iterable接口的类对象
+- 数组拷贝问题
+- 数组排序：使用的优化的快速排序
+- 多维数组问题
