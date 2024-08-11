@@ -34,7 +34,7 @@ public class IODemo {
 
         PrintWriter out = new PrintWriter("C:\\Users\\JORDAN\\Desktop\\Hi.txt", StandardCharsets.UTF_8);
 
-        out.println("Wuling, I will come back!");
+        out.println("Durant, I will come back!");
         out.close();
     }
 

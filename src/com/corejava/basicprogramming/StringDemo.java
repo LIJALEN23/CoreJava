@@ -17,7 +17,7 @@ public class StringDemo {
     }
 
     private static void example3() {
-        String str1 = "Wuling";
+        String str1 = "Durant";
         int length = str1.length();
         int cpLength = str1.codePointCount(0, length);
 
@@ -41,7 +41,7 @@ public class StringDemo {
         StringBuilder str1 = new StringBuilder("Hello,world!");
 
         str1.append("Lijalen");
-        str1.append("  Wuling");
+        str1.append("  Durant");
         str1.append(8.7);
         str1.append(234);
         String str2 = str1.toString();
